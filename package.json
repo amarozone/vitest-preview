@@ -5,6 +5,7 @@
   "private": true,
   "main": "index.js",
   "scripts": {
+    "vitest-preview": "vitest-preview"
     "test": "echo \"Error: no test specified\" && exit 1",
     "prettier": "prettier examples packages --check",
     "prettier:fix": "pnpm run prettier --write"
