@@ -13,6 +13,7 @@
     "vitest-preview": "./dist/previewServer.mjs"
   },
   "scripts": {
+    "vitest-preview": "vitest-preview",
     "copy": "mkdir dist && cp src/node/empty.html dist/empty.html",
     "build": "rimraf dist && pnpm copy && rollup -c",
     "build:watch": "rimraf dist && pnpm copy && rollup -c -w",
